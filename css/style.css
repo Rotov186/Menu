@@ -1,1 +1,19 @@
-Я постигаю CSS
+.menu__item:hover {
+    background-color: blue;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu__item {
+    text-decoration: none;
+    display: inline-block;    
+    color: black;
+    border: 1px solid black;
+    justify-content: center;
+    margin: -2px;
+    padding: 10px; 
+    border-radius: 13em 0.5em/1em 0.5em;  
+}
